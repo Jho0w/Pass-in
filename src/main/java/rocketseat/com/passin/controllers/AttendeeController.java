@@ -11,5 +11,6 @@ public class AttendeeController {
     @GetMapping
     public ResponseEntity<String> getTest() {
         return ResponseEntity.ok("Success!");
+        test
     }
 }
